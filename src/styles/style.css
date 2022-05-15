@@ -1,0 +1,167 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-style: 'Roboto';
+}
+
+body{
+
+    background: black;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 30px;
+
+    height: 80px;
+    background-color: rgb(170, 29, 29);
+}
+
+#logo{
+
+    font-weight: bold;
+    font-size: 50px;
+
+    color: white;
+}
+
+#label-preLogin{
+
+    color: white;
+}
+
+#botao-login{
+
+    font-weight: bold;
+    background-color: rgb(188, 187, 187);
+
+    border-style: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#botao-login:hover{
+
+    color: white;
+    border: 0.5px solid white;
+    cursor: pointer;
+
+}
+
+#botao-login:active{
+
+    opacity: 0.6;    
+}
+
+#botao-login a{
+
+    color: black;
+    text-decoration: none;
+}
+
+#botao-login a:hover{
+    color:beige
+}
+
+#form-cadastro{
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+
+    height: 380px;
+    width: 300px;
+}
+
+.titulo-cadastro{
+    font-weight: bold;
+    letter-spacing: 0.100em;
+    margin: 0px;
+}
+
+.inputs{
+
+    border: none;
+    background-color: rgb(170, 29, 29);
+
+    padding-left: 15px;
+    width: 280px;
+    height: 50px;
+}
+
+.inputs::placeholder{
+
+    color: azure;
+}
+
+#botaoInscricao{
+    font-weight: bold;
+
+    background-color: rgb(188, 187, 187);
+
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#botaoInscricao:hover{
+
+    color: white;
+    border: 0.5px solid white;
+    cursor: pointer;
+}
+
+#botaoInscricao:active{
+
+    opacity: 0.6; 
+}
+
+/* estilizacão pag. login */
+
+#form-login{
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+
+    height: 250px;
+    width: 300px;
+}
+
+
+
+#botaoLogin{
+    font-weight: bold;
+
+    background-color: rgb(188, 187, 187);
+
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#botaoLogin:hover{
+
+    color: white;
+    border: 0.5px solid white;
+    cursor: pointer;
+}
+
+#botaoLogin:active{
+
+    opacity: 0.6; 
+}
