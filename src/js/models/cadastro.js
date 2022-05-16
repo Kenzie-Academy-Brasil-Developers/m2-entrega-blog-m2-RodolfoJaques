@@ -18,7 +18,7 @@ async function cadastrarUsuario(event){
           data[item.name] = item.value;
         }    
     }
-
+    
     const {username,email,avatarUrl,password} = data
 
     const newData = {
@@ -30,7 +30,6 @@ async function cadastrarUsuario(event){
     }
 
     await Api.cadastro(newData)
-console.log(newData);
 
     window.location.href = ("./src/pages/login.html")
 

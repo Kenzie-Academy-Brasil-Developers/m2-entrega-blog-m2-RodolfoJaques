@@ -16,9 +16,33 @@
     <header id="pag-principal">
 
         <div class="user-identificacao">
-            <img src="" alt="">
+            <img class="img" src="" alt="">
+            <h2 class="user-name">...</h2>
         </div>
+
+        <button class="botao-logout"><a href="../pages/login.html">LOGOUT</a></button>
+
     </header>
+
+    <main id="main-principal">
+
+        <div class="postagem">
+            <textarea placeholder="Conta aí pra nós. Faz teu post aqui..."></textarea>
+            <div class="faixa-botao-postar">
+                <button class="postar">+</button>
+            </div>            
+        </div>
+
+        <div id="posts">
+            <ul class="lista-posts" ></ul>
+        </div>
+
+        <div id='botoes-pag'>
+            <button id= 'anterior'>anterior</button>
+            <button id= 'seguinte'>seguinte</button>
+        </div>  
+        
+    </main>
 
     
     <script src="../js/script.js"></script>

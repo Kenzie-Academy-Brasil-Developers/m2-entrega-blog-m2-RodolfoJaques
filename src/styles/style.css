@@ -165,3 +165,294 @@ header{
 
     opacity: 0.6; 
 }
+
+/* pag. principal */
+
+.pag-principal{
+    display: flex;
+}
+
+.user-identificacao{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img{
+
+    border: 0.7px solid whitesmoke;
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+.user-name{
+
+    letter-spacing: 0.07em;
+
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.botao-logout{
+    font-weight: bold;
+
+    background-color: rgb(188, 187, 187);
+
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.botao-logout:hover{
+
+    color: white;
+    border: 0.5px solid white;
+    cursor: pointer;
+}
+
+.botao-logout:active{
+
+    opacity: 0.6; 
+}
+
+.botao-logout a{
+
+    color: black;
+    text-decoration: none;
+}
+
+.botao-logout a:hover{
+    color:beige
+}
+
+#main-principal{
+
+    background: rgb(188, 187, 187);
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.postagem{
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 8px;
+    box-shadow: 1.5px 1.5px 3px 1.5px;
+}
+
+.postagem textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.3px solid gray;
+    height: 100px;
+    width: 99%;
+}
+
+.faixa-botao-postar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px 8px;
+}
+
+.faixa-botao-postar button{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(188, 187, 187);
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.faixa-botao-postar button:hover{
+
+    color: white;
+    border: 0.5px solid white;
+    cursor: pointer;
+}
+
+.faixa-botao-postar button:active{
+
+    opacity: 0.6; 
+}
+
+/* pag. principal postagens */
+
+
+
+.lista-posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    width: 100%;
+    
+}
+
+.item-lista-post{
+    background: rgb(170, 29, 29);
+    box-shadow: 1.5px 1.5px 3px 1.5px;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.item-lista-post img{
+
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.foto{
+    min-width: 80px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.texto{
+
+    padding-left: 15px;
+    width: 85%;
+    color: beige;
+}
+
+.texto h4{
+
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+.texto p{
+
+ padding-left: 0px;
+}
+
+.botoes{
+
+    color: rgb(188, 187, 187);;
+
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end ;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+
+    width: 8%;
+}
+
+.post-botoes{
+
+    margin-bottom: 5px;
+}
+
+.editar-post{
+    color: rgb(5, 72, 5);
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.deletar-post{
+    color: rgb(55, 5, 102);
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+/* botoes de troca de pag. */
+#botoes-pag button{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(188, 187, 187);
+    width: 100px;
+    height: 22px;
+    border-style: none;
+    border-radius: 8px;
+    border: 0.5px solid black;
+}
+
+#botoes-pag button:hover{
+
+    color: white;
+    border: 0.5px solid white;
+    cursor: pointer;
+}
+
+#botoes-pag button:active{
+
+    opacity: 0.6; 
+}
+
+/* ----- */
+
+.edicao{
+    
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: solid gray;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 8px;
+}
+
+.edicao textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.3px solid gray;
+    height: 100px;
+    width: 99%;
+}
+
+.faixa-botao-editar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px 8px;
+}
+
+.faixa-botao-editar button{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(188, 187, 187);
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 9px;
+}
+
+.faixa-botao-editar button:hover{
+
+    color: white;
+    border: 0.5px solid white;
+    cursor: pointer;
+}
+
+.faixa-botao-editar button:active{
+
+    opacity: 0.6; 
+}

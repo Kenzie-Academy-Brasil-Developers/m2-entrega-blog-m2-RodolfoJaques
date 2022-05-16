@@ -28,7 +28,8 @@ async function logarUsuario(event){
     }
 
     await Api.login(newData)
-console.log(newData);
+                
+    window.location.href = ("./principal.html")
 
     return newData
 }
